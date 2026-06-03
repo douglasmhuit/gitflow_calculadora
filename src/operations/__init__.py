@@ -1,4 +1,5 @@
 from .suma import sumar
 from .resta import restar
 from .multiplicar import multiplicar
-__all__ = ["sumar", "restar", "multiplicar"]
+from .dividir import dividir
+__all__ = ["sumar", "restar", "multiplicar", "dividir"]
